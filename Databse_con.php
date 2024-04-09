@@ -2,7 +2,7 @@
 $server = "localhost";
 $username = "root";
 $password = "";
-$database = "users2810";
+$database = "car sales and service";
 
 $conn = mysqli_connect($server,$username,$password,$database);
 
@@ -11,6 +11,6 @@ if (!$conn) {
 }
 else{ 
   
-  echo "Connected successfully";
+  // echo "Connected successfully";
 }
 ?>

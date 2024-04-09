@@ -1,0 +1,48 @@
+/* adminlogin.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; /* Light gray background */
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.photo {
+    text-align: center;
+}
+
+.photo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Make the admin logo round */
+    border: 5px solid #fff; /* White border around the logo */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333; /* Dark gray heading color */
+}
+
+.form-label {
+    color: #333; /* Dark gray label color */
+    margin-left: 250px;
+}
+
+.form-control {
+    border-radius: 20px; /* Rounded input fields */
+    margin-left: 300px;
+}
+
+.btn-primary {
+    background-color: #007bff; /* Blue button background */
+    border: none;
+    border-radius: 20px; /* Rounded corners for button */
+}
+
+.btn-primary:hover {
+    background-color: #0cd3d3; /* Darker blue on hover */
+}
